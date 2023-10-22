@@ -58,3 +58,5 @@ Private Slots
 - void keyPressEvent(QKeyEvent *event) override : Event handler for keyboard key presses. It interprets key presses such as "W," "A," "S," "D," and "Z" for game controls. "W," "A," "S," and "D" are used for moving the tiles in the game, and "Z" is used to undo the previous move.
 - void on_actionQuit_triggered(): Event handler for the "Quit" action. This action allows the user to exit the application gracefully.
 - void showEvent(QShowEvent* event) override : Event handler for the "showEvent" triggered when the main window is first displayed. It initializes a new game state and prepares the user interface for gameplay.
+  
+<img width="2128" alt="Untitled" src="https://github.com/zlatilda/game/assets/43010223/96a68551-ead5-492b-a68a-b64611953d22">
