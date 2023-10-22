@@ -23,11 +23,7 @@ Private member variables:
 Public Methods
 - void new_game(): This method initializes a new game by resetting the game board, setting the score to 0, and adding the first piece to the board. It should be called at the beginning of each new game.
 - void apply_move(int direction: This method is used to apply a move to the game board. The direction parameter should be one of the following values:
-- 0 (Up)
-- 1 (Right)
-- 2 (Down)
-- 3 (Left)
-It updates the game board based on the chosen direction, combining tiles and increasing the score as appropriate.
+ 0 (Up), 1 (Right), 2 (Down), 3 (Left). It updates the game board based on the chosen direction, combining tiles and increasing the score as appropriate.
 - int get_board_value(int i, int j): This method returns the value at the specified position (i, j) on the game board. The i parameter represents the row, and the j parameter represents the column. The board values can be 0 (empty) or powers of 2 (2, 4, 8, etc.).
 - int get_score(): This method returns the current score of the game.
 - void restore_to_prev_move(): This method restores the game board to its state before the last move. It is used to undo the previous action in case the player wishes to revert their move.
